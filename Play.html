@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Play.css">
+</head>
+<body>
+    <video autoplay loop id="myVideo">
+        <source src=".MP4" type="video/mp4">
+      </video>
+      
+      <div class="content">
+        <h1>Heading</h1>
+        <p>Lorem ipsum...</p>
+        
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+        <a href="Media.html"><div class="button">BACK ICON</div></a>
+      </div>
+                <!-- javascript -->
+                <script>
+                  var video = document.getElementById("myVideo");
+                  
+                  var btn = document.getElementById("myBtn");
+                  
+                  function myFunction() {
+                    if (video.paused) {
+                      video.play();
+                      btn.innerHTML = "Pause";
+                    } else {
+                      video.pause();
+                      btn.innerHTML = "Play";
+                    }
+                  }
+                  </script>
+</body>
+</html>
