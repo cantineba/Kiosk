@@ -20,8 +20,8 @@
     padding: 10px;
     border-radius: 100%;
     border: none;
-    background: #000;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
     cursor: pointer;
     left: 50%;
     position: relative;
@@ -29,17 +29,17 @@
   }
   #myBtn:hover {
     background: #ddd;
-    color: black;
+    color: rgb(0, 0, 0);
   }
   .button{
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(255, 255, 255);
     border-radius: 25px;
     width: 10%;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     position: relative;
     left: 1%;
